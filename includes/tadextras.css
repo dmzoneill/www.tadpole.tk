@@ -1,0 +1,25 @@
+.select {
+color:#FFFFFF;
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+background-color:#0077AA;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+size: 250px;
+margin: 2px;
+overflow: -moz-scrollbars-vertical;
+overflow: -moz-scrollbars-vertical;
+overflow-y: auto;
+scrollbar-face-color: #FF9900 !important;
+scrollbar-shadow-color: ##D68C37 !important;
+scrollbar-highlight-color: ##D68C37 !important;
+scrollbar-3dlight-color: ##D68C37 !important;
+scrollbar-darkshadow-color: ##D68C37 !important;
+scrollbar-track-color: #CC9966 !important;
+scrollbar-arrow-color: #000000 !important;
+}
+

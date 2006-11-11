@@ -1,0 +1,289 @@
+a {
+	color: #006699;
+	font: 11px/1.5em Verdana;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FF0000;
+	font: 11px/1.5em Verdana;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF0000;
+	font: 11px/1.5em Verdana;
+	text-decoration: none;
+}
+
+b {
+	color: #000000;
+	font: bold 10px/1.5em Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body {
+	background-attachment: fixed;
+	background-color: #DDDDDD;
+	background-image: url(images/background.jpg);
+	font: 11px/1.5em Verdana;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+font {
+	color: #000000;
+	font: 10px/1.5em Verdana;
+	font-size: 10pt;
+}
+
+h3 {
+	color: #24618E;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+input {
+	color: #000044;
+	font-family: verdana;
+	font-size: 10pt;
+	padding: 0;
+}
+
+select {
+	color: #000044;
+	font-family: verdana;
+	font-size: 10pt;
+	padding: 2;
+}
+
+table.bottom {
+	background: #FFFFFF;
+	border-top: 1px solid #24618E;
+	float: left;
+	font-size: 93%;
+	line-height: normal;
+	width: 780;
+}
+
+td.header {
+	color: #555555;
+	font: Verdana;
+	font-size: large;
+	letter-spacing: 10px;
+}
+
+.album {
+	font: 10px/1.5em Verdana;
+	padding: 5;
+	vertical-align: top;
+	width: 70;
+}
+
+.category {
+	background-color: #EFEFEF;
+	border: 1px;
+	border-top: 1px;
+	border-top-color: #000080;
+	padding: 5;
+	vertical-align: top;
+	width: 800;
+}
+
+    #tabsB {
+      float:left;
+		width:800;
+      background:#Ffffff;
+      font-size:93%;
+      line-height:normal;
+      }
+    #tabsB ul {
+	  margin:0;
+	  padding:10px 10px 0 20px;
+	  list-style:none;
+      }
+    #tabsB li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsB a {
+      float:left;
+      background:url("images/tableftB.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsB a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightB.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsB a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsB a:hover span {
+      color:#000;
+      }
+    #tabsB a:hover {
+      background-position:0% -42px;
+      }
+    #tabsB a:hover span {
+      background-position:100% -42px;
+      }
+	
+	
+
+#tabsJ {
+      float:left;
+      width:100%;
+      background:#ffffff;
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:1px solid #24618E;
+      }
+    #tabsJ ul {
+	  margin:0;
+	  padding:10px 10px 0 10px;
+	  list-style:none;
+      }
+    #tabsJ li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsJ a {
+      float:left;
+      background:url("images/tableftJ.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 5px;
+      text-decoration:none;
+      }
+    #tabsJ a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightJ.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#24618E;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsJ a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsJ a:hover span {
+      color:#FFF;
+      }
+    #tabsJ a:hover {
+      background-position:0% -42px;
+      }
+    #tabsJ a:hover span {
+      background-position:100% -42px;
+      }
+
+.button {
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+color:#005588;
+background-color:#FFFFFF;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+border-style: outset;
+float: left;
+margin: 2px;
+}
+
+.button:hover {
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+color:#005588;
+background-color:#FFFFFF;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+float: left;
+margin: 2px;
+}
+
+.text {
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+color:#005588;
+background-color:#FFFFFF;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+width: 150px;
+border-style: outset;
+float: left;
+margin: 2px;
+}
+
+.text:hover {
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+color:#005588;
+background-color:#FFFFFF;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+width: 150px;
+float: left;
+margin: 2px;
+}
+
+
+.file {
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+color:#005588;
+background-color:#FFFFFF;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+size: 250px;
+border-style: outset;
+float: left;
+margin: 2px;
+}
+
+.file:hover {
+font-family:Verdana;
+font-size:8pt;
+font-weight:bold;
+font-style:normal;
+color:#005588;
+background-color:#FFFFFF;
+border-style:double;
+border-width:1px;
+border-color:#000000;
+padding: 2px;
+size: 250px;
+float: left;
+margin: 2px;
+}
+
+.required {
+	font: 11px/1.5em Verdana;
+	font-size: 10pt;
+	text-decoration: none;
+	color:#990000;
+}
