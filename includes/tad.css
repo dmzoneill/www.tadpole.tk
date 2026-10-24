@@ -183,88 +183,11 @@ td.header {
       background-position:100% -42px;
       }
 
-.button {
-font-family:Verdana;
-font-size:8pt;
-font-weight:bold;
-font-style:normal;
-color:#005588;
-background-color:#FFFFFF;
-border-style:double;
-border-width:1px;
-border-color:#000000;
-padding: 2px;
-border-style: outset;
-float: left;
-margin: 2px;
-}
-
-.button:hover {
-font-family:Verdana;
-font-size:8pt;
-font-weight:bold;
-font-style:normal;
-color:#005588;
-background-color:#FFFFFF;
-border-style:double;
-border-width:1px;
-border-color:#000000;
-padding: 2px;
-float: left;
-margin: 2px;
-}
-
-.text {
-font-family:Verdana;
-font-size:8pt;
-font-weight:bold;
-font-style:normal;
-color:#005588;
-background-color:#FFFFFF;
-border-style:double;
-border-width:1px;
-border-color:#000000;
-padding: 2px;
-width: 150px;
-border-style: outset;
-float: left;
-margin: 2px;
-}
-
-.text:hover {
-font-family:Verdana;
-font-size:8pt;
-font-weight:bold;
-font-style:normal;
-color:#005588;
-background-color:#FFFFFF;
-border-style:double;
-border-width:1px;
-border-color:#000000;
-padding: 2px;
-width: 150px;
-float: left;
-margin: 2px;
-}
-
-
-.file {
-font-family:Verdana;
-font-size:8pt;
-font-weight:bold;
-font-style:normal;
-color:#005588;
-background-color:#FFFFFF;
-border-style:double;
-border-width:1px;
-border-color:#000000;
-padding: 2px;
-size: 250px;
-border-style: outset;
-float: left;
-margin: 2px;
-}
-
+.button,
+.button:hover,
+.text,
+.text:hover,
+.file,
 .file:hover {
 font-family:Verdana;
 font-size:8pt;
@@ -276,14 +199,28 @@ border-style:double;
 border-width:1px;
 border-color:#000000;
 padding: 2px;
-size: 250px;
 float: left;
 margin: 2px;
 }
 
-.required {
-	font: 11px/1.5em Verdana;
-	font-size: 10pt;
-	text-decoration: none;
-	color:#990000;
+.button,
+.text,
+.file {
+border-style: outset;
+}
+
+.button:hover,
+.text:hover,
+.file:hover {
+border-style: double;
+}
+
+.text,
+.text:hover {
+width: 150px;
+}
+
+.file,
+.file:hover {
+size: 250px;
 }
