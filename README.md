@@ -1,5 +1,9 @@
 # tadpole.tk
 
+<p align="center">
+  <img src=".github/logo.png" alt="www.tadpole.tk logo" width="128" />
+</p>
+
 A PHP and MySQL photo gallery and blog site.
 
 ## What it does
